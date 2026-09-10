@@ -1,6 +1,12 @@
 const Student = require("../models/students.models");
 
 
+
+
+
+
+
+
 const createStudent = async (req, res) => {
   const { name, age, email, phone, address, course, institution } = req.body;
   try {
